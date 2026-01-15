@@ -12,7 +12,7 @@ public class TreinamentoDeLoopFor {
         System.out.println("Digite um numero para mostrar a tabuada: ");
         numero = ler.nextInt();
 
-        for (int i = 0; i <= 20; i++) {
+        for (int i = 0; i <= 50; i++) {
             System.out.println("Tabuada do " + numero + ";  " + numero + " x " + i + " = " + numero * i);
         }
     }
